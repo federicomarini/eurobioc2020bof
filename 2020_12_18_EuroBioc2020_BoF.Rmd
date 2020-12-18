@@ -132,13 +132,13 @@ Start here: <i class="fab fa-google-drive"></i> [`https://drive.google.com/drive
 
 <i class="fas fa-clipboard"></i><i class="fab fa-google-drive"></i> We are going to take notes in a [GDoc](https://docs.google.com/document/d/1ybYpu4XO_WdGhUYYkmxabBjpkyMoGQWCWdB-PhsIoMk/edit?usp=sharing) (drop some details on your contact info - email/twitter)
 
-<i class="fas fa-microphone"></i> We are more than happy to have you grab the mic!
+<i class="fas fa-users"></i><i class="fas fa-microphone"></i> We are more than happy to have you grab the mic!
 
 <i class="fab fa-slack"></i><i class="fas fa-comment-dots"></i> We set up a channel on Slack to continue the discussion - check out [#bioc2020-bof-10sr](https://join.slack.com/share/zt-ga8fmolw-kay~yiF~mZgz6pzz6R6lBw) in the [Bioconductor](https://community-bioc.slack.com) Slack workspace
 
 <i class="far fa-newspaper"></i><i class="fab fa-github"></i>  We would like to come up with a collaborative manuscript, in a format inspired by the "Ten Simple Rules" series - check out [`https://github.com/drisso/ThrivingInBioinformatics`](https://github.com/drisso/ThrivingInBioinformatics)
 
-<i class="fas fa-chalkboard"></i> We will try to sketch the 10 "directions" in
+<i class="fas fa-pencil-alt"></i><i class="fas fa-chalkboard"></i> We will try to sketch the 10 "directions" in
 this set of Google Slides
 
 <i class="fas fa-forward"></i> Gather thoughts and plan next meeting via Slack (+ Airmeet again?)
