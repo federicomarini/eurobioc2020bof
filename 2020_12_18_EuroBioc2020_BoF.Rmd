@@ -1,0 +1,147 @@
+---
+title: "Ten simple rules for thriving in bioinformatics research"
+subtitle: ""
+author: "Federico Marini, Charlotte Soneson, Davide Risso</br>"
+date: >
+  2020/12/18<br>[`#EuroBioc2020`](https://eurobioc2020.bioconductor.org/) Birds of a Feather (BOF)
+  <br><br>[`https://bit.ly/eurobioc2020-10sr`](https://bit.ly/eurobioc2020-10sr)
+output:
+  xaringan::moon_reader:
+    css: ["default", "default-fonts","css/FMstyles.css","css/animate.css"]
+    lib_dir: libs
+    # chakra: libs/remark-latest.min.js
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      titleSlideClass: [center, middle]
+      beforeInit: "https://platform.twitter.com/widgets.js"
+---
+
+layout: true
+  
+<div class="my-footer">
+<span>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<!-- &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; -->
+&emsp;&emsp;&emsp;&emsp;&emsp;
+<!-- <a href="http://bit.ly/genetonic2019"><code>http://bit.ly/genetonic2019</code></a> -->
+<a href="https://federicomarini.github.io/eurobioc2020bof"><code>https://federicomarini.github.io/eurobioc2020bof</code></a>
+</span>
+</div>
+
+---
+
+class: center
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  eval = FALSE,
+  message = FALSE,
+  echo = FALSE,
+  warnings = FALSE,
+  fig.align = "center"
+)
+```
+
+```{r}
+library("tweetrmd")
+```
+
+# About this session
+
+<p align="center">
+<img src="images/ss_issue.png" alt="" height = 450/>
+</p>
+
+[`https://github.com/Bioconductor/BioC2020/issues/105`](https://github.com/Bioconductor/BioC2020/issues/105)
+
+---
+
+class: center
+
+# Bioinformatics == research
+
+--
+
+```{r eval=TRUE}
+tweetrmd::include_tweet(
+  tweet_url = "https://twitter.com/wetlabsucks/status/1311610339348434946"
+  )
+```
+
+---
+
+class: center
+
+# Bioinformatics == research
+
+... and not just support/collaborations!
+
+"Ten simple rules for providing effective bioinformatics research support", recently posted on Plos Computational Biology https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007531
+
+--
+
+We've all been there, and we can share our tips to deal with this struggle!
+
+--
+
+We want to develop both software **and** careers (our own, and these of our trainees/colleagues) 
+
+---
+
+class: center
+
+# About us
+
+<table>
+<tr>
+<td width="33%"><a href="https://federicomarini.github.io">
+<img src="images/federico-marini.png"></a></td>
+<td width="33%"><a href="https://csoneson.github.io">
+<img src="images/charlotte-soneson.png"></a></td>
+<td width="33%"><a href="https://drisso.github.io">
+<img src="images/davide-risso.png"></a></td>
+</tr>
+
+<tr>
+<td align='center' width="33%">Federico</td>
+<td align='center' width="33%">Charlotte</td>
+<td align='center' width="33%">Davide</td>
+</tr>
+
+<tr>
+<td align='center' width="33%"><code>`r icon::fa('twitter')`@FedeBioinfo</code></td>
+<td align='center' width="33%"><code>`r icon::fa('twitter')`@CSoneson</code></td>
+<td align='center' width="33%"><code>`r icon::fa('twitter')`@drisso1893</code></td>
+</tr>
+</table>
+
+---
+
+class: center
+
+# How this will work
+
+Start here: <i class="fab fa-google-drive"></i> [`https://drive.google.com/drive/folders/1y6pkCBY6yXP4bryqIN3f9ZH32oQ8J7BA?usp=sharing`](https://drive.google.com/drive/folders/1y6pkCBY6yXP4bryqIN3f9ZH32oQ8J7BA?usp=sharing)
+
+--
+
+<i class="fa fa-lightbulb"></i> We have collected some initial ideas, mostly based on our previous experiences + Bioc2020 BoF
+
+<i class="fas fa-clipboard"></i><i class="fab fa-google-drive"></i> We are going to take notes in a [GDoc](https://docs.google.com/document/d/1ybYpu4XO_WdGhUYYkmxabBjpkyMoGQWCWdB-PhsIoMk/edit?usp=sharing) (drop some details on your contact info - email/twitter)
+
+<i class="fas fa-microphone"></i> We are more than happy to have you grab the mic!
+
+<i class="fab fa-slack"></i><i class="fas fa-comment-dots"></i> We set up a channel on Slack to continue the discussion - check out [#bioc2020-bof-10sr](https://join.slack.com/share/zt-ga8fmolw-kay~yiF~mZgz6pzz6R6lBw) in the [Bioconductor](https://community-bioc.slack.com) Slack workspace
+
+<i class="far fa-newspaper"></i><i class="fab fa-github"></i>  We would like to come up with a collaborative manuscript, in a format inspired by the "Ten Simple Rules" series - check out [`https://github.com/drisso/ThrivingInBioinformatics`](https://github.com/drisso/ThrivingInBioinformatics)
+
+<i class="fas fa-chalkboard"></i> We will try to sketch the 10 "directions" in
+this set of Google Slides
+
+<i class="fas fa-forward"></i> Gather thoughts and plan next meeting via Slack (+ Airmeet again?)
+
