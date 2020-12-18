@@ -65,8 +65,6 @@ class: center
 
 # Bioinformatics == research
 
---
-
 ```{r eval=TRUE}
 tweetrmd::include_tweet(
   tweet_url = "https://twitter.com/wetlabsucks/status/1311610339348434946"
